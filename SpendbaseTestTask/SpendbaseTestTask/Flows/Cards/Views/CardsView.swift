@@ -7,12 +7,35 @@
 
 import SwiftUI
 
+private enum Constants {
+    static let navigationTitle: String = "My cards"
+}
+
 struct CardsView: View {
     var body: some View {
-        Text("Cards")
+        placeholderCompostion
+    }
+    
+    private var placeholderCompostion: some View {
+        NavigationView {
+            GeometryReader { geometry in
+                ScrollView(.vertical, showsIndicators: false) {
+                    placeholderMessage
+                        .frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
+                }
+                .background(.backgroundGray)
+                .navigationTitle(Constants.navigationTitle)
+            }
+        }
+    }
+    
+    private var placeholderMessage: some View {
+        Image("placeholder")
     }
 }
 
+#if DEBUG
 #Preview {
     CardsView()
 }
+#endif
