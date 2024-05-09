@@ -1,0 +1,24 @@
+{
+  "source": "/Users/olehcartelll/Documents/petProjects/SpendbaseTestTask/SpendbaseTestTask/SpendbaseTestTask/Flows/TabBar/TabBarView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Home"
+      },
+      {
+        "comment": "",
+        "key": "Transactions"
+      },
+      {
+        "comment": "",
+        "key": "My Cards"
+      },
+      {
+        "comment": "",
+        "key": "Account"
+      }
+    ]
+  },
+  "version": 1
+}

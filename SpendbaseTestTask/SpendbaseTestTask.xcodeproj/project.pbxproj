@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		CCA974D02BED3E8C00C122D9 /* SpendbaseTestTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA974CF2BED3E8C00C122D9 /* SpendbaseTestTaskApp.swift */; };
-		CCA974D22BED3E8C00C122D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA974D12BED3E8C00C122D9 /* ContentView.swift */; };
+		CCA974D22BED3E8C00C122D9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA974D12BED3E8C00C122D9 /* HomeView.swift */; };
 		CCA974D42BED3E8E00C122D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA974D32BED3E8E00C122D9 /* Assets.xcassets */; };
 		CCA974D72BED3E8E00C122D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA974D62BED3E8E00C122D9 /* Preview Assets.xcassets */; };
+		CCA974E42BED3F4600C122D9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA974E32BED3F4600C122D9 /* HomeViewModel.swift */; };
+		CCA974EB2BED406700C122D9 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA974EA2BED406700C122D9 /* TabBarView.swift */; };
+		CCA974F02BED40DA00C122D9 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA974EF2BED40DA00C122D9 /* TransactionsView.swift */; };
+		CCA974F22BED40EF00C122D9 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA974F12BED40EF00C122D9 /* CardsView.swift */; };
+		CCA974F42BED410200C122D9 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA974F32BED410200C122D9 /* AccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CCA974CC2BED3E8C00C122D9 /* SpendbaseTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpendbaseTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA974CF2BED3E8C00C122D9 /* SpendbaseTestTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendbaseTestTaskApp.swift; sourceTree = "<group>"; };
-		CCA974D12BED3E8C00C122D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CCA974D12BED3E8C00C122D9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CCA974D32BED3E8E00C122D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCA974D62BED3E8E00C122D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCA974E32BED3F4600C122D9 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CCA974EA2BED406700C122D9 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		CCA974EF2BED40DA00C122D9 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		CCA974F12BED40EF00C122D9 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
+		CCA974F32BED410200C122D9 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +61,9 @@
 		CCA974CE2BED3E8C00C122D9 /* SpendbaseTestTask */ = {
 			isa = PBXGroup;
 			children = (
-				CCA974CF2BED3E8C00C122D9 /* SpendbaseTestTaskApp.swift */,
-				CCA974D12BED3E8C00C122D9 /* ContentView.swift */,
-				CCA974D32BED3E8E00C122D9 /* Assets.xcassets */,
-				CCA974D52BED3E8E00C122D9 /* Preview Content */,
+				CCA974DD2BED3EF500C122D9 /* App */,
+				CCA974DF2BED3F0A00C122D9 /* Flows */,
+				CCA974DE2BED3EFD00C122D9 /* Resources */,
 			);
 			path = SpendbaseTestTask;
 			sourceTree = "<group>";
@@ -65,6 +74,116 @@
 				CCA974D62BED3E8E00C122D9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CCA974DD2BED3EF500C122D9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CCA974CF2BED3E8C00C122D9 /* SpendbaseTestTaskApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CCA974DE2BED3EFD00C122D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCA974D32BED3E8E00C122D9 /* Assets.xcassets */,
+				CCA974D52BED3E8E00C122D9 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CCA974DF2BED3F0A00C122D9 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				CCA974E92BED405700C122D9 /* TabBar */,
+				CCA974E02BED3F1C00C122D9 /* Home */,
+				CCA974E52BED401E00C122D9 /* Transactions */,
+				CCA974E72BED403500C122D9 /* Cards */,
+				CCA974E82BED404200C122D9 /* Account */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		CCA974E02BED3F1C00C122D9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CCA974E12BED3F2400C122D9 /* Views */,
+				CCA974E22BED3F2B00C122D9 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CCA974E12BED3F2400C122D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCA974D12BED3E8C00C122D9 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CCA974E22BED3F2B00C122D9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CCA974E32BED3F4600C122D9 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CCA974E52BED401E00C122D9 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				CCA974EC2BED40C200C122D9 /* Views */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		CCA974E72BED403500C122D9 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				CCA974ED2BED40C700C122D9 /* Views */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		CCA974E82BED404200C122D9 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				CCA974EE2BED40CC00C122D9 /* Views */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		CCA974E92BED405700C122D9 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CCA974EA2BED406700C122D9 /* TabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CCA974EC2BED40C200C122D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCA974EF2BED40DA00C122D9 /* TransactionsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CCA974ED2BED40C700C122D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCA974F12BED40EF00C122D9 /* CardsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CCA974EE2BED40CC00C122D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCA974F32BED410200C122D9 /* AccountView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +256,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCA974D22BED3E8C00C122D9 /* ContentView.swift in Sources */,
+				CCA974F22BED40EF00C122D9 /* CardsView.swift in Sources */,
+				CCA974F02BED40DA00C122D9 /* TransactionsView.swift in Sources */,
+				CCA974D22BED3E8C00C122D9 /* HomeView.swift in Sources */,
+				CCA974E42BED3F4600C122D9 /* HomeViewModel.swift in Sources */,
+				CCA974F42BED410200C122D9 /* AccountView.swift in Sources */,
+				CCA974EB2BED406700C122D9 /* TabBarView.swift in Sources */,
 				CCA974D02BED3E8C00C122D9 /* SpendbaseTestTaskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +395,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SpendbaseTestTask/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SpendbaseTestTask/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = LFZ2J32A9W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -300,7 +424,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SpendbaseTestTask/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SpendbaseTestTask/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = LFZ2J32A9W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

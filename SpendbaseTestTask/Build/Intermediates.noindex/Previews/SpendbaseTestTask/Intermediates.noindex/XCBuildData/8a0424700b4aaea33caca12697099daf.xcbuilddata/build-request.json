@@ -1,0 +1,57 @@
+{
+  "buildCommand" : {
+    "command" : "preview",
+    "style" : "dynamicReplacement"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "cdd76a8c207d4c8de844c08926d6dc24a1d581e7e96c45a50ec90e817e67553e"
+    }
+  ],
+  "containerPath" : "/Users/olehcartelll/Documents/petProjects/SpendbaseTestTask/SpendbaseTestTask/SpendbaseTestTask.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator17.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/olehcartelll/Documents/petProjects/SpendbaseTestTask/SpendbaseTestTask/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/olehcartelll/Documents/petProjects/SpendbaseTestTask/SpendbaseTestTask/Build/Products",
+      "derivedDataPath" : "/Users/olehcartelll/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/olehcartelll/Library/Developer/Xcode/DerivedData/SpendbaseTestTask-dmqqhhldgqhsaqalrbdxcijktfzm/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/olehcartelll/Library/Developer/Xcode/DerivedData/SpendbaseTestTask-dmqqhhldgqhsaqalrbdxcijktfzm/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/olehcartelll/Documents/petProjects/SpendbaseTestTask/SpendbaseTestTask/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "DSTROOT" : "/Users/olehcartelll/Documents/petProjects/SpendbaseTestTask/SpendbaseTestTask/Build/Intermediates.noindex/Previews/SpendbaseTestTask/ReleaseProducts",
+          "ENABLE_PREVIEWS" : "YES",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "OBJROOT" : "/Users/olehcartelll/Documents/petProjects/SpendbaseTestTask/SpendbaseTestTask/Build/Intermediates.noindex/Previews/SpendbaseTestTask/Intermediates.noindex",
+          "SYMROOT" : "/Users/olehcartelll/Documents/petProjects/SpendbaseTestTask/SpendbaseTestTask/Build/Intermediates.noindex/Previews/SpendbaseTestTask/Products"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

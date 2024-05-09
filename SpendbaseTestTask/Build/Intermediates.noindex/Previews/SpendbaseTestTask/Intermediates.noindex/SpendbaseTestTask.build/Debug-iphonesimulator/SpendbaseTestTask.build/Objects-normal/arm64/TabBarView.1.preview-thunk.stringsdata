@@ -1,0 +1,24 @@
+{
+  "source": "/Users/olehcartelll/Documents/petProjects/SpendbaseTestTask/SpendbaseTestTask/Build/Intermediates.noindex/Previews/SpendbaseTestTask/Intermediates.noindex/SpendbaseTestTask.build/Debug-iphonesimulator/SpendbaseTestTask.build/Objects-normal/arm64/TabBarView.1.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Home"
+      },
+      {
+        "comment": "",
+        "key": "Transactions"
+      },
+      {
+        "comment": "",
+        "key": "My Cards"
+      },
+      {
+        "comment": "",
+        "key": "Account"
+      }
+    ]
+  },
+  "version": 1
+}
