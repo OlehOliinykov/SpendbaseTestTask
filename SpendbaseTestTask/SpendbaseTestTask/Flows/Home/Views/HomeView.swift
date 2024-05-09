@@ -15,20 +15,39 @@ struct HomeView: View {
     }
     
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Home")
+        homeComposition
+    }
+    
+    private var homeComposition: some View {
+        NavigationView {
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack {
+                    Image(systemName: "globe")
+                        .imageScale(.large)
+                        .foregroundStyle(.tint)
+                    Text("Home")
+                }
+                .padding()
+            }
+            .navigationTitle("Money")
+            .toolbar {
+                ToolbarItem(placement: .confirmationAction) {
+                    Button {
+                        viewModel.showTransferSheet.toggle()
+                    } label: {
+                        Image(systemName: "plus")
+                    }
+                }
+            }
+            .sheet(isPresented: $viewModel.showTransferSheet) {
+                TransferSheetView()
+            }
         }
-        .padding()
     }
 }
 
 #if DEBUG
 #Preview {
-    NavigationView {
-        HomeView()
-    }
+    HomeView()
 }
 #endif

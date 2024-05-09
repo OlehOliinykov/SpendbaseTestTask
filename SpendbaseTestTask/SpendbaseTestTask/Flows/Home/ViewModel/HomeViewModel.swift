@@ -8,5 +8,5 @@
 import Foundation
 
 final class HomeViewModel: ObservableObject {
-    
+    @Published var showTransferSheet: Bool = false
 }
