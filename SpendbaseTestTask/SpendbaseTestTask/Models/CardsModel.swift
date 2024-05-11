@@ -30,3 +30,17 @@ struct CardModel: Decodable, Identifiable {
         return cardLast4
     }
 }
+
+extension CardModel {
+    static let mockData: CardModel = CardModel(id: "000",
+                                               cardLast4: "4141",
+                                               cardName: "Google",
+                                               isLocked: false,
+                                               isTerminated: false,
+                                               spent: 100.00,
+                                               limit: 1000.00,
+                                               limitType: "PerMonth",
+                                               cardHolder: HolderModel.mockData,
+                                               fundingSource: "ACH",
+                                               issuedAt: "2024-05-06T08:24:49.897Z")
+}

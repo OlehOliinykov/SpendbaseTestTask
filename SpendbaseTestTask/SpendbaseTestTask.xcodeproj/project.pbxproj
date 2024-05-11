@@ -16,6 +16,25 @@
 		CCA974F02BED40DA00C122D9 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA974EF2BED40DA00C122D9 /* TransactionsView.swift */; };
 		CCA974F22BED40EF00C122D9 /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA974F12BED40EF00C122D9 /* CardsView.swift */; };
 		CCA974F42BED410200C122D9 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA974F32BED410200C122D9 /* AccountView.swift */; };
+		CCA974F72BED44A400C122D9 /* TransferSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA974F62BED44A400C122D9 /* TransferSheetView.swift */; };
+		CCF239D12BED7466007FD6DE /* GET_cards.json in Resources */ = {isa = PBXBuildFile; fileRef = CCF239D02BED7466007FD6DE /* GET_cards.json */; };
+		CCF239D32BED7D7D007FD6DE /* GET_cards_transactions.json in Resources */ = {isa = PBXBuildFile; fileRef = CCF239D22BED7D7D007FD6DE /* GET_cards_transactions.json */; };
+		CCF239D52BEE638A007FD6DE /* GET_cards_account_total-balance.json in Resources */ = {isa = PBXBuildFile; fileRef = CCF239D42BEE638A007FD6DE /* GET_cards_account_total-balance.json */; };
+		CCF239D82BEE675C007FD6DE /* BalanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF239D72BEE675C007FD6DE /* BalanceModel.swift */; };
+		CCF239DA2BEE6810007FD6DE /* CardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF239D92BEE6810007FD6DE /* CardsModel.swift */; };
+		CCF239DC2BEE68F6007FD6DE /* TransactionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF239DB2BEE68F6007FD6DE /* TransactionsModel.swift */; };
+		CCF239DE2BEE697D007FD6DE /* HolderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF239DD2BEE697D007FD6DE /* HolderModel.swift */; };
+		CCF239E12BEE6F92007FD6DE /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF239E02BEE6F92007FD6DE /* NetworkClient.swift */; };
+		CCF239E32BEEB712007FD6DE /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF239E22BEEB712007FD6DE /* MockURLProtocol.swift */; };
+		CCF239E92BEEDD33007FD6DE /* CardAndBalanceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF239E82BEEDD33007FD6DE /* CardAndBalanceRepository.swift */; };
+		CCF239EC2BEEE18F007FD6DE /* GetBalanceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF239EB2BEEE18F007FD6DE /* GetBalanceRequest.swift */; };
+		CCF239EE2BEEE1BB007FD6DE /* RequestDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF239ED2BEEE1BB007FD6DE /* RequestDescriptor.swift */; };
+		CCF239F02BEEE1CC007FD6DE /* GetCardRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF239EF2BEEE1CC007FD6DE /* GetCardRequest.swift */; };
+		CCF239F32BEEE1EF007FD6DE /* GetTransactionsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF239F22BEEE1EF007FD6DE /* GetTransactionsRequest.swift */; };
+		CCF239F72BEF7103007FD6DE /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF239F62BEF7103007FD6DE /* CardCell.swift */; };
+		CCF239F92BEF7288007FD6DE /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF239F82BEF7288007FD6DE /* TransactionCell.swift */; };
+		CCF239FC2BEF73F9007FD6DE /* FrameViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF239FB2BEF73F9007FD6DE /* FrameViewModifier.swift */; };
+		CCF23A042BEF9489007FD6DE /* PressEffectButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF23A032BEF9489007FD6DE /* PressEffectButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +48,27 @@
 		CCA974EF2BED40DA00C122D9 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
 		CCA974F12BED40EF00C122D9 /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
 		CCA974F32BED410200C122D9 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		CCA974F62BED44A400C122D9 /* TransferSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferSheetView.swift; sourceTree = "<group>"; };
+		CCF239D02BED7466007FD6DE /* GET_cards.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GET_cards.json; sourceTree = "<group>"; };
+		CCF239D22BED7D7D007FD6DE /* GET_cards_transactions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GET_cards_transactions.json; sourceTree = "<group>"; };
+		CCF239D42BEE638A007FD6DE /* GET_cards_account_total-balance.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "GET_cards_account_total-balance.json"; sourceTree = "<group>"; };
+		CCF239D72BEE675C007FD6DE /* BalanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceModel.swift; sourceTree = "<group>"; };
+		CCF239D92BEE6810007FD6DE /* CardsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsModel.swift; sourceTree = "<group>"; };
+		CCF239DB2BEE68F6007FD6DE /* TransactionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsModel.swift; sourceTree = "<group>"; };
+		CCF239DD2BEE697D007FD6DE /* HolderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolderModel.swift; sourceTree = "<group>"; };
+		CCF239E02BEE6F92007FD6DE /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		CCF239E22BEEB712007FD6DE /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		CCF239E82BEEDD33007FD6DE /* CardAndBalanceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAndBalanceRepository.swift; sourceTree = "<group>"; };
+		CCF239EB2BEEE18F007FD6DE /* GetBalanceRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBalanceRequest.swift; sourceTree = "<group>"; };
+		CCF239ED2BEEE1BB007FD6DE /* RequestDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestDescriptor.swift; sourceTree = "<group>"; };
+		CCF239EF2BEEE1CC007FD6DE /* GetCardRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCardRequest.swift; sourceTree = "<group>"; };
+		CCF239F22BEEE1EF007FD6DE /* GetTransactionsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTransactionsRequest.swift; sourceTree = "<group>"; };
+		CCF239F62BEF7103007FD6DE /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		CCF239F82BEF7288007FD6DE /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		CCF239FB2BEF73F9007FD6DE /* FrameViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameViewModifier.swift; sourceTree = "<group>"; };
+		CCF23A032BEF9489007FD6DE /* PressEffectButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressEffectButtonStyle.swift; sourceTree = "<group>"; };
+		CCF23A052BEFA1BF007FD6DE /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro.ttf"; path = "../../../../../../../../../Library/Fonts/SF-Pro.ttf"; sourceTree = "<group>"; };
+		CCF23A062BEFA22A007FD6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				CCA974DD2BED3EF500C122D9 /* App */,
+				CCF239D62BEE6741007FD6DE /* Models */,
+				CCF239DF2BEE6E69007FD6DE /* Networking */,
 				CCA974DF2BED3F0A00C122D9 /* Flows */,
 				CCA974DE2BED3EFD00C122D9 /* Resources */,
 			);
@@ -87,6 +129,8 @@
 		CCA974DE2BED3EFD00C122D9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CCF23A062BEFA22A007FD6DE /* Info.plist */,
+				CCF239F42BEF6D29007FD6DE /* Fonts */,
 				CCA974D32BED3E8E00C122D9 /* Assets.xcassets */,
 				CCA974D52BED3E8E00C122D9 /* Preview Content */,
 			);
@@ -118,6 +162,9 @@
 			isa = PBXGroup;
 			children = (
 				CCA974D12BED3E8C00C122D9 /* HomeView.swift */,
+				CCF239F52BEF70E1007FD6DE /* Cells */,
+				CCA974F52BED445700C122D9 /* Sheets */,
+				CCF239FA2BEF73D3007FD6DE /* ViewModifiers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +233,116 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		CCA974F52BED445700C122D9 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				CCF239FD2BEF830E007FD6DE /* Views */,
+				CCF23A022BEF9473007FD6DE /* Styles */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+		CCF239D62BEE6741007FD6DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCF239EA2BEEE16E007FD6DE /* Requests */,
+				CCF239D72BEE675C007FD6DE /* BalanceModel.swift */,
+				CCF239D92BEE6810007FD6DE /* CardsModel.swift */,
+				CCF239DB2BEE68F6007FD6DE /* TransactionsModel.swift */,
+				CCF239DD2BEE697D007FD6DE /* HolderModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CCF239DF2BEE6E69007FD6DE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CCF239E02BEE6F92007FD6DE /* NetworkClient.swift */,
+				CCF239ED2BEEE1BB007FD6DE /* RequestDescriptor.swift */,
+				CCF239E72BEEDD15007FD6DE /* Repositories */,
+				CCF239E62BEECB00007FD6DE /* MockJsons */,
+				CCF239E52BEECAF2007FD6DE /* MockProtocol */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CCF239E52BEECAF2007FD6DE /* MockProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				CCF239E22BEEB712007FD6DE /* MockURLProtocol.swift */,
+			);
+			path = MockProtocol;
+			sourceTree = "<group>";
+		};
+		CCF239E62BEECB00007FD6DE /* MockJsons */ = {
+			isa = PBXGroup;
+			children = (
+				CCF239D42BEE638A007FD6DE /* GET_cards_account_total-balance.json */,
+				CCF239D02BED7466007FD6DE /* GET_cards.json */,
+				CCF239D22BED7D7D007FD6DE /* GET_cards_transactions.json */,
+			);
+			path = MockJsons;
+			sourceTree = "<group>";
+		};
+		CCF239E72BEEDD15007FD6DE /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				CCF239E82BEEDD33007FD6DE /* CardAndBalanceRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		CCF239EA2BEEE16E007FD6DE /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF239EB2BEEE18F007FD6DE /* GetBalanceRequest.swift */,
+				CCF239EF2BEEE1CC007FD6DE /* GetCardRequest.swift */,
+				CCF239F22BEEE1EF007FD6DE /* GetTransactionsRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		CCF239F42BEF6D29007FD6DE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CCF23A052BEFA1BF007FD6DE /* SF-Pro.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CCF239F52BEF70E1007FD6DE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CCF239F62BEF7103007FD6DE /* CardCell.swift */,
+				CCF239F82BEF7288007FD6DE /* TransactionCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CCF239FA2BEF73D3007FD6DE /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				CCF239FB2BEF73F9007FD6DE /* FrameViewModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		CCF239FD2BEF830E007FD6DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCA974F62BED44A400C122D9 /* TransferSheetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CCF23A022BEF9473007FD6DE /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				CCF23A032BEF9489007FD6DE /* PressEffectButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -244,6 +401,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCF239D32BED7D7D007FD6DE /* GET_cards_transactions.json in Resources */,
+				CCF239D12BED7466007FD6DE /* GET_cards.json in Resources */,
+				CCF239D52BEE638A007FD6DE /* GET_cards_account_total-balance.json in Resources */,
 				CCA974D72BED3E8E00C122D9 /* Preview Assets.xcassets in Resources */,
 				CCA974D42BED3E8E00C122D9 /* Assets.xcassets in Resources */,
 			);
@@ -257,12 +417,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCA974F22BED40EF00C122D9 /* CardsView.swift in Sources */,
+				CCF239EC2BEEE18F007FD6DE /* GetBalanceRequest.swift in Sources */,
 				CCA974F02BED40DA00C122D9 /* TransactionsView.swift in Sources */,
+				CCF239DC2BEE68F6007FD6DE /* TransactionsModel.swift in Sources */,
+				CCF239F32BEEE1EF007FD6DE /* GetTransactionsRequest.swift in Sources */,
+				CCF239E92BEEDD33007FD6DE /* CardAndBalanceRepository.swift in Sources */,
 				CCA974D22BED3E8C00C122D9 /* HomeView.swift in Sources */,
+				CCF239F02BEEE1CC007FD6DE /* GetCardRequest.swift in Sources */,
+				CCA974F72BED44A400C122D9 /* TransferSheetView.swift in Sources */,
+				CCF239D82BEE675C007FD6DE /* BalanceModel.swift in Sources */,
+				CCF239DA2BEE6810007FD6DE /* CardsModel.swift in Sources */,
+				CCF23A042BEF9489007FD6DE /* PressEffectButtonStyle.swift in Sources */,
+				CCF239E32BEEB712007FD6DE /* MockURLProtocol.swift in Sources */,
 				CCA974E42BED3F4600C122D9 /* HomeViewModel.swift in Sources */,
+				CCF239E12BEE6F92007FD6DE /* NetworkClient.swift in Sources */,
+				CCF239F92BEF7288007FD6DE /* TransactionCell.swift in Sources */,
 				CCA974F42BED410200C122D9 /* AccountView.swift in Sources */,
+				CCF239F72BEF7103007FD6DE /* CardCell.swift in Sources */,
+				CCF239FC2BEF73F9007FD6DE /* FrameViewModifier.swift in Sources */,
 				CCA974EB2BED406700C122D9 /* TabBarView.swift in Sources */,
 				CCA974D02BED3E8C00C122D9 /* SpendbaseTestTaskApp.swift in Sources */,
+				CCF239DE2BEE697D007FD6DE /* HolderModel.swift in Sources */,
+				CCF239EE2BEEE1BB007FD6DE /* RequestDescriptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,11 +575,13 @@
 				DEVELOPMENT_TEAM = LFZ2J32A9W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpendbaseTestTask/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -411,9 +589,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = noNameCompany.SpendbaseTestTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -428,11 +610,13 @@
 				DEVELOPMENT_TEAM = LFZ2J32A9W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpendbaseTestTask/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,9 +624,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = noNameCompany.SpendbaseTestTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

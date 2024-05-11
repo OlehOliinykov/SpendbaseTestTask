@@ -13,7 +13,9 @@ final class HomeViewModel: ObservableObject {
     @Published var showAlert: Bool = false
     @Published var alertMessage: String = String()
     
-    @Published var balance: BalanceModel?
+    @Published var inputAmount: Double = Double()
+    
+    @Published var balance: BalanceModel = BalanceModel(balance: .zero)
     @Published var cards: [CardModel] = [CardModel]()
     @Published var transactions: [TransactionsModel] = [TransactionsModel]()
     
@@ -25,7 +27,14 @@ final class HomeViewModel: ObservableObject {
         repository = CardAndBalanceRepository(networkClient: networkClient)
     }
     
-    func subscribeBalanceChannel() {
+    func subscribeChannels() {
+        subscribeBalanceChannel()
+        subscribeCardsChannel()
+        subscribeTransactionsChannel()
+        subscribeAlertChannel()
+    }
+    
+    private func subscribeBalanceChannel() {
         repository.$balance
             .receive(on: DispatchQueue.main)
             .sink { balance in
@@ -34,8 +43,7 @@ final class HomeViewModel: ObservableObject {
             .store(in: &cancellables)
     }
     
-    
-    func subscribeCardsChannel() {
+    private func subscribeCardsChannel() {
         repository.$cards
             .receive(on: DispatchQueue.main)
             .sink { [weak self] cards in
@@ -44,7 +52,7 @@ final class HomeViewModel: ObservableObject {
             .store(in: &cancellables)
     }
     
-    func subscribeTransactionsChannel() {
+    private func subscribeTransactionsChannel() {
         repository.$transactions
             .receive(on: DispatchQueue.main)
             .sink { [weak self] transactions in
@@ -53,7 +61,7 @@ final class HomeViewModel: ObservableObject {
             .store(in: &cancellables)
     }
     
-    func subscribeAlertChannel() {
+    private func subscribeAlertChannel() {
         repository.$errorMessage
             .receive(on: DispatchQueue.main)
             .sink { [weak self] error in
@@ -61,5 +69,33 @@ final class HomeViewModel: ObservableObject {
                 self?.showAlert = true
             }
             .store(in: &cancellables)
+    }
+    
+    func isWithdrawals() -> Bool{
+        if inputAmount > balance.balance || balance.balance.isZero {
+            return false
+        } else {
+            return true
+        }
+    }
+    
+    func isEnabledContinueButton() -> Bool {
+        if inputAmount > balance.balance || inputAmount.isZero || balance.balance.isZero {
+            return false
+        } else {
+            return true
+        }
+    }
+    
+    func selectCard(for cellIndex: Int) -> CardModel? {
+        guard !cards.isEmpty else { return nil }
+        
+        let card = cards[cellIndex]
+        
+        return card
+    }
+    
+    func clearInputFields() {
+        inputAmount = Double()
     }
 }

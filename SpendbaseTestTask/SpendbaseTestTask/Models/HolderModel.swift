@@ -13,3 +13,10 @@ struct HolderModel: Decodable {
     let email: String
     let logoUrl: String?
 }
+
+extension HolderModel {
+    static let mockData: HolderModel = HolderModel(id: "001",
+                                                   fullName: "John Doe",
+                                                   email: "johndoe1@mail.com",
+                                                   logoUrl: nil)
+}

@@ -1,0 +1,12 @@
+{
+  "source": "/Users/olehcartelll/Documents/petProjects/SpendbaseTestTask/SpendbaseTestTask/SpendbaseTestTask/Flows/Home/Views/Sheets/TransferSheetView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Transfer"
+      }
+    ]
+  },
+  "version": 1
+}

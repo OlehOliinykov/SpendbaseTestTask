@@ -1,0 +1,22 @@
+{
+    "cards": [
+        {
+            "id": "001",
+            "cardLast4": "9274",
+            "cardName": "string",
+            "isLocked": false,
+            "isTerminated": false,
+            "spent": 0,
+            "limit": 500,
+            "limitType": "PerMonth",
+            "cardHolder": {
+                "id": "001",
+                "fullName": "John Doe",
+                "email": "johndoe@mail.com",
+                "logoUrl": null
+            },
+            "fundingSource": "ACH",
+            "issuedAt": "2024-05-06T08:24:49.897Z"
+        }
+    ]
+}

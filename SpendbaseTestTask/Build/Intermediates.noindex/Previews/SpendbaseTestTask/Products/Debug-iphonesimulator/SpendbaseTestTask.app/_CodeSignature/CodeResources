@@ -4,9 +4,37 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		vaT0AaLJQGQXKKMZnM+XlsfOm1o=
+		</data>
+		<key>GET_cards.json</key>
+		<data>
+		/p2ziyvt3m+FNFimr+Rwd4Z0Q6E=
+		</data>
+		<key>GET_cards_account_total-balance.json</key>
+		<data>
+		gwZZm+FPFqcXht7vGwMhENSswHY=
+		</data>
+		<key>GET_cards_transactions.json</key>
+		<data>
+		91S6+WnX2xGmJvKN89XDPLLvmBY=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		lLk8PqN2z2irmOT7jt2ZkIF5gp4=
+		WDd7eanFcXRvmI2/dLYotvSofSI=
+		</data>
+		<key>MockBalance.json</key>
+		<data>
+		gwZZm+FPFqcXht7vGwMhENSswHY=
+		</data>
+		<key>MockCards.json</key>
+		<data>
+		AkI+Havh8G35QbrL1aySwjlsRAI=
+		</data>
+		<key>MockTransactions.json</key>
+		<data>
+		AgwWC5hl0M8lwggly59fOkMYD5s=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -14,7 +42,57 @@
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict/>
+	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uJ+iOA/c2mNG44OisZwqB0vqxUVPC27760aehMN0da4=
+			</data>
+		</dict>
+		<key>GET_cards.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xF5mCWda8BFlJRbtR5a728HitwFz6JkLZ4zDOVryhHk=
+			</data>
+		</dict>
+		<key>GET_cards_account_total-balance.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			In0Vju3pKvDJ/1IiCN55+zMYXQ8L+aHxHnyFJVe8xvg=
+			</data>
+		</dict>
+		<key>GET_cards_transactions.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LGNOzLH/YSG8NjfuY+sPi/ZzDpxTJ5/PKv7SkNhQDyo=
+			</data>
+		</dict>
+		<key>MockBalance.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			In0Vju3pKvDJ/1IiCN55+zMYXQ8L+aHxHnyFJVe8xvg=
+			</data>
+		</dict>
+		<key>MockCards.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BLWGeSjyiOKvUaD5WLqMY0vj44HWf/oVXyHUhzuK5aM=
+			</data>
+		</dict>
+		<key>MockTransactions.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wsqFoSEgY2vLemH0Oqi3fMVMsj8JEn69qU+XiSAjH7A=
+			</data>
+		</dict>
+	</dict>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>

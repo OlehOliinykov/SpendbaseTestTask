@@ -1,0 +1,37 @@
+
+[
+    {
+        "id": "000",
+        "tribeTransactionId": "000",
+        "tribeCardId": 1,
+        "amount": "100",
+        "status": "string",
+        "tribeTransactionType": "string",
+        "schemeId": "string",
+        "merchantName": "string",
+        "pan": "string"
+    },
+    {
+        "id": "001",
+        "tribeTransactionId": "001",
+        "tribeCardId": 1,
+        "amount": "100",
+        "status": "string",
+        "tribeTransactionType": "string",
+        "schemeId": "string",
+        "merchantName": "string",
+        "pan": "string"
+    },
+    {
+        "id": "002",
+        "tribeTransactionId": "002",
+        "tribeCardId": 1,
+        "amount": "100",
+        "status": "string",
+        "tribeTransactionType": "string",
+        "schemeId": "string",
+        "merchantName": "string",
+        "pan": "string"
+    }
+]
+

@@ -1,0 +1,20 @@
+{
+  "source": "/Users/olehcartelll/Documents/petProjects/SpendbaseTestTask/SpendbaseTestTask/SpendbaseTestTask/Flows/Home/Views/Sheets/Views/TransferSheetView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "available in your balance"
+      },
+      {
+        "comment": "",
+        "key": "You only have"
+      },
+      {
+        "comment": "",
+        "key": "Continue"
+      }
+    ]
+  },
+  "version": 1
+}
