@@ -16,6 +16,7 @@ private enum Constants {
 
 struct TabBarView: View {
     @State private var selectedTab: Int = 1
+    private let networkClient: NetworkClient = NetworkClient()
         
     var body: some View {
         tabBarViewComposition
@@ -38,7 +39,7 @@ struct TabBarView: View {
     }
     
     private var homeTab: some View {
-        HomeView()
+        HomeView(networkClient: networkClient)
             .tabItem {
                 VStack {
                     Image("home")
